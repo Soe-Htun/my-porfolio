@@ -5,26 +5,29 @@ const skills = [
   // Frontend
   { name: "HTML/CSS", level: 95, category: "frontend" },
   { name: "JavaScript", level: 90, category: "frontend" },
-  { name: "React", level: 90, category: "frontend" },
-  { name: "TypeScript", level: 85, category: "frontend" },
+  { name: "Vue", level: 95, category: "frontend" },
   { name: "Tailwind CSS", level: 90, category: "frontend" },
+  { name: "Bootstrap", level: 90, category: "frontend" },
+  { name: "TypeScript", level: 85, category: "frontend" },
+  { name: "Nuxt", level: 80, category: "frontend" },
+  { name: "React", level: 80, category: "frontend" },
   { name: "Next.js", level: 80, category: "frontend" },
+  { name: "Egret Game Engine", level: 70, category: "frontend" },
 
   // Backend
-  { name: "Node.js", level: 80, category: "backend" },
-  { name: "Express", level: 75, category: "backend" },
-  { name: "MongoDB", level: 70, category: "backend" },
-  { name: "PostgreSQL", level: 65, category: "backend" },
-  { name: "GraphQL", level: 60, category: "backend" },
+  // { name: "Node.js", level: 80, category: "backend" },
+  // { name: "Express", level: 75, category: "backend" },
+  // { name: "MongoDB", level: 70, category: "backend" },
+  // { name: "PostgreSQL", level: 65, category: "backend" },
+  // { name: "GraphQL", level: 60, category: "backend" },
 
   // Tools
   { name: "Git/GitHub", level: 90, category: "tools" },
-  { name: "Docker", level: 70, category: "tools" },
-  { name: "Figma", level: 85, category: "tools" },
+  { name: "Figma", level: 75, category: "tools" },
   { name: "VS Code", level: 95, category: "tools" },
 ];
 
-const categories = ["all", "frontend", "backend", "tools"];
+const categories = ["all", "frontend", "tools"];
 
 export const SkillsSection = () => {
   const [activeCategory, setActiveCategory] = useState("all");
@@ -35,13 +38,13 @@ export const SkillsSection = () => {
   return (
     <section id="skills" className="py-24 px-4 relative bg-secondary/30">
       <div className="container mx-auto max-w-5xl">
-        <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">
+        <h2 data-aos="zoom-in" className="text-3xl md:text-4xl font-bold mb-12 text-center">
           My <span className="text-primary"> Skills</span>
         </h2>
 
         <div className="flex flex-wrap justify-center gap-4 mb-12">
           {categories.map((category, key) => (
-            <button
+            <button data-aos="zoom-in" data-aos-delay="300"
               key={key}
               onClick={() => setActiveCategory(category)}
               className={cn(
@@ -58,7 +61,7 @@ export const SkillsSection = () => {
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {filteredSkills.map((skill, key) => (
-            <div
+            <div data-aos="zoom-in"
               key={key}
               className="bg-card p-6 rounded-lg shadow-xs card-hover"
             >

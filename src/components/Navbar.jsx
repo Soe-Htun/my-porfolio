@@ -1,6 +1,8 @@
 import { cn } from "@/lib/utils";
 import { Menu, X } from "lucide-react";
 import { useEffect, useState } from "react";
+import { ThemeToggle } from "./ThemeToggle";
+
 
 const navItems = [
   { name: "Home", href: "#hero" },
@@ -35,7 +37,7 @@ export const Navbar = () => {
           href="#hero"
         >
           <span className="relative z-10">
-            <span className="text-glow text-foreground"> PedroTech </span>{" "}
+            <span className="text-glow text-foreground">  </span>{" "}
             Portfolio
           </span>
         </a>
@@ -83,7 +85,18 @@ export const Navbar = () => {
                 {item.name}
               </a>
             ))}
-          </div>
+          </div> 
+        </div>
+
+        {/* <ThemeToggle /> */}
+        <div
+          className={cn(
+            "block", 
+            "absolute left-1/2 -translate-x-1/2 flex items-center", 
+            "md:static md:translate-x-0 md:left-auto"
+          )}
+        >
+          <ThemeToggle />
         </div>
       </div>
     </nav>
