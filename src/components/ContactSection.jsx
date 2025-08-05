@@ -5,8 +5,8 @@ import {
   MapPin,
   Phone,
   Send,
-  Twitch,
-  Twitter,
+  Facebook,
+  Github
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { useToast } from "@/hooks/use-toast";
@@ -44,7 +44,6 @@ export const ContactSection = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
           <div data-aos="zoom-in" className="space-y-8">
             <h3 className="text-2xl font-semibold mb-6">
-              {" "}
               Contact Information
             </h3>
 
@@ -53,7 +52,7 @@ export const ContactSection = () => {
                 <div className="p-3 rounded-full bg-primary/10">
                   <Mail className="h-6 w-6 text-primary" />{" "}
                 </div>
-                <div>
+                <div className="text-left">
                   <h4 className="font-medium"> Email</h4>
                   <a
                     href="mailto:hello@gmail.com"
@@ -67,7 +66,7 @@ export const ContactSection = () => {
                 <div className="p-3 rounded-full bg-primary/10">
                   <Phone className="h-6 w-6 text-primary" />{" "}
                 </div>
-                <div>
+                <div className="text-left">
                   <h4 className="font-medium"> Phone</h4>
                   <a
                     href="tel:+11234567890"
@@ -81,7 +80,7 @@ export const ContactSection = () => {
                 <div className="p-3 rounded-full bg-primary/10">
                   <MapPin className="h-6 w-6 text-primary" />{" "}
                 </div>
-                <div>
+                <div className="text-left">
                   <h4 className="font-medium"> Location</h4>
                   <a className="text-muted-foreground hover:text-primary transition-colors">
                     Yangon, Myanmar
@@ -93,17 +92,17 @@ export const ContactSection = () => {
             <div data-aos="zoom-in" className="pt-8">
               <h4 className="font-medium mb-4"> Connect With Me</h4>
               <div className="flex space-x-4 justify-center">
-                <a href="#" target="_blank">
-                  <Linkedin />
+                <a href="https://www.facebook.com/SoeHtun14498/" target="_blank">
+                  <Facebook />
                 </a>
-                <a href="#" target="_blank">
-                  <Twitter />
-                </a>
-                <a href="#" target="_blank">
+                <a href="https://www.instagram.com/paysaung/" target="_blank">
                   <Instagram />
                 </a>
-                <a href="#" target="_blank">
-                  <Twitch />
+                 <a href="https://www.linkedin.com/in/soe-htun-245b391b4/" target="_blank">
+                  <Linkedin />
+                </a>
+                <a href="https://github.com/Soe-Htun" target="_blank">
+                  <Github />
                 </a>
               </div>
             </div>
@@ -119,9 +118,8 @@ export const ContactSection = () => {
               <div>
                 <label
                   htmlFor="name"
-                  className="block text-sm font-medium mb-2"
+                  className="block text-sm font-medium mb-2 text-left"
                 >
-                  {" "}
                   Your Name
                 </label>
                 <input
@@ -130,16 +128,15 @@ export const ContactSection = () => {
                   name="name"
                   required
                   className="w-full px-4 py-3 rounded-md border border-input bg-background focus:outline-hidden foucs:ring-2 focus:ring-primary"
-                  placeholder="Pedro Machado..."
+                  placeholder="Soe..."
                 />
               </div>
 
               <div>
                 <label
                   htmlFor="email"
-                  className="block text-sm font-medium mb-2"
+                  className="block text-sm font-medium mb-2 text-left"
                 >
-                  {" "}
                   Your Email
                 </label>
                 <input
@@ -148,16 +145,15 @@ export const ContactSection = () => {
                   name="email"
                   required
                   className="w-full px-4 py-3 rounded-md border border-input bg-background focus:outline-hidden foucs:ring-2 focus:ring-primary"
-                  placeholder="john@gmail.com"
+                  placeholder="soe@gmail.com"
                 />
               </div>
 
               <div>
                 <label
                   htmlFor="message"
-                  className="block text-sm font-medium mb-2"
+                  className="block text-sm font-medium mb-2 text-left"
                 >
-                  {" "}
                   Your Message
                 </label>
                 <textarea
