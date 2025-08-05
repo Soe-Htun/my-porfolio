@@ -2,9 +2,6 @@
 
 <div align="center">
   <br />
-  <a href="https://youtu.be/YOUR_VIDEO_ID" target="_blank">
-    <img src="./banner.png" alt="Portfolio Website Banner">
-  </a>
   <br />
   <div>
     <img src="https://img.shields.io/badge/-React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React" />
@@ -36,8 +33,6 @@
 
 In this tutorial, you'll learn how to build a modern portfolio website using **React**, **TailwindCSS**, **Vite**, and **Lucide Icons**. From dark mode support to responsive animations and deployable project showcases, this video walks you through every step—perfect for developers looking to level up their frontend skills or apply for jobs.
 
-🎥 Watch the full tutorial: [YouTube](https://youtu.be/YOUR_VIDEO_ID)
-
 ---
 
 ## ⚙️ Tech Stack
@@ -48,7 +43,7 @@ In this tutorial, you'll learn how to build a modern portfolio website using **R
 * **Lucide Icons** – Clean and beautiful icon pack
 * **Radix UI** – Accessible component primitives
 * **TypeScript (optional)** – Type safety and tooling
-* **GitHub & Vercel** – Deployment
+* **GitHub & Netlify** – Deployment
 
 ---
 
@@ -90,13 +85,13 @@ In this tutorial, you'll learn how to build a modern portfolio website using **R
 ### Clone and Run
 
 ```bash
-git clone https://github.com/yourusername/react-tailwind-portfolio.git
-cd react-tailwind-portfolio
+git clone https://github.com/Soe-Htun/my-porfolio.git
+cd my-porfolio
 npm install
 npm run dev
 ```
 
-Your app will be available at: [http://localhost:5173](http://localhost:5173)
+Your app will be available at: [http://localhost:3000](http://localhost:3000)
 
 ---
 
@@ -106,16 +101,21 @@ Your app will be available at: [http://localhost:5173](http://localhost:5173)
 
 ---
 
+![Info Screenshot](https://github.com/user-attachments/assets/2fedd4f1-57dd-486a-8551-e57e78743c9a)
+![Hero Section Screenshot](https://github.com/user-attachments/assets/e4754c43-e9c6-45b8-a889-479e0b4e7f67)
+![Project Section Screenshot](https://github.com/user-attachments/assets/ef9d624e-d12c-45f6-84c8-537c664c3968)
+
+
 ## ☁️ Deployment
 
 ### Deploy on Vercel
 
 1. Push your code to GitHub
-2. Go to [vercel.com](https://vercel.com)
+2. Go to [Netlify](https://app.netlify.com)
 3. Import your repository
 4. Click **Deploy**
 
-Your live website will be hosted on a custom subdomain (e.g. `https://your-name.vercel.app`)
+Your live website will be hosted on a custom subdomain (e.g. `https://soehtun.netlify.app/`)
 
 ---
 
@@ -126,7 +126,7 @@ Your live website will be hosted on a custom subdomain (e.g. `https://your-name.
 * [Lucide Icons](https://lucide.dev/)
 * [Radix UI](https://www.radix-ui.com/)
 * [Vite](https://vitejs.dev/)
-* [Vercel](https://vercel.com/)
+* [Vercel](https://app.netlify.com/)
 
 ---
 
