@@ -2,7 +2,7 @@ import React from "react";
 
 export const Education = () => {
   return (
-    <section id="education-experience" className="py-16 px-4">
+    <section id="education-experience" className="py-12 px-4">
       <h2
         data-aos="fade-up"
         className="text-3xl md:text-4xl font-bold mb-12 text-center"
@@ -12,17 +12,17 @@ export const Education = () => {
       <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12">
         {/* Education */}
         <div>
-          <h2 data-aos="fade-up" className="text-3xl font-bold mb-6">
+          <h2 data-aos="fade-up" className="text-xl font-bold mb-6">
             Education
           </h2>
           <div data-aos="fade-up" className="flex w-full flex-col items-start ">
-            <div className="group flex gap-x-6">
+            <div className="group flex gap-x-6 h-20">
               <div className="relative">
                 <div className="absolute left-1/2 top-0 h-full w-0.5 -translate-x-1/2 bg-slate-400"></div>
                 <span className="relative z-10 grid h-3 w-3 place-items-center rounded-full bg-slate-400 text-slate-800"></span>
               </div>
-              <div className="rounded-lg text-left">
-                <h3 className="text-xl font-semibold">
+              <div className="rounded-lg text-left flex flex-col justify-center">
+                <h3 className="text-lg font-semibold">
                   University of Computer Studies, Magway (B.C.Sc.)
                 </h3>
                 <p className="text-sm">2014 - 2019</p>
@@ -33,7 +33,7 @@ export const Education = () => {
 
         {/* Experience */}
         <div>
-          <h2 data-aos="fade-up" className="text-3xl font-bold mb-6">
+          <h2 data-aos="fade-up" className="text-xl font-bold mb-6">
             Experience
           </h2>
           <div data-aos="fade-up" className="space-y-3 text-left">
@@ -47,63 +47,63 @@ export const Education = () => {
               provide the best solutions.
             </div>
 
-            <div className="flex w-full flex-col items-start gap-y-4 ">
-              <div data-aos="fade-up" className="group flex gap-x-6">
+            <div className="flex w-full flex-col items-start">
+              <div data-aos="fade-up" className="group flex gap-x-6 h-20">
                 <div className="relative">
                   <div className="absolute left-1/2 top-0 h-full w-0.5 -translate-x-1/2 bg-slate-400"></div>
                   <span className="relative z-10 grid h-3 w-3 place-items-center rounded-full bg-slate-400 text-slate-800"></span>
                 </div>
-                <div className="rounded-lg">
-                  <h3 className="text-xl font-semibold">
+                <div className="rounded-lg flex flex-col justify-center">
+                  <h3 className="text-lg font-semibold">
                     Senior Frontend Developer – The Ninth Art
                   </h3>
                   <p className="text-sm">Jun 2025 – Present</p>
                 </div>
               </div>
-              <div data-aos="fade-up" className="group flex gap-x-6">
+              <div data-aos="fade-up" className="group flex gap-x-6 h-20">
                 <div className="relative">
                   <div className="absolute left-1/2 top-0 h-full w-0.5 -translate-x-1/2 bg-slate-400"></div>
                   <span className="relative z-10 grid h-3 w-3 place-items-center rounded-full bg-slate-400 text-slate-800"></span>
                 </div>
-                <div className="rounded-lg text-left">
-                  <h3 className="text-xl font-semibold">
+                <div className="rounded-lg text-left flex flex-col justify-center">
+                  <h3 className="text-lg font-semibold">
                     Senior Frontend Developer – City Developments
                     Limited(Singapore)
                   </h3>
                   <p className="text-sm">Apr 2023 – Apr 2025</p>
                 </div>
               </div>
-              <div data-aos="fade-up" className="group flex gap-x-6">
+              <div data-aos="fade-up" className="group flex gap-x-6 h-20">
                 <div className="relative">
                   <div className="absolute left-1/2 top-0 h-full w-0.5 -translate-x-1/2 bg-slate-400"></div>
                   <span className="relative z-10 grid h-3 w-3 place-items-center rounded-full bg-slate-400 text-slate-800"></span>
                 </div>
-                <div className="rounded-lg">
-                  <h3 className="text-xl font-semibold">
+                <div className="rounded-lg flex flex-col justify-center">
+                  <h3 className="text-lg font-semibold">
                     Senior Frontend Developer – UMG Myanmar
                   </h3>
                   <p className="text-sm">July 2022 – Apr 2023</p>
                 </div>
               </div>
-              <div data-aos="fade-up" className="group flex gap-x-6">
+              <div data-aos="fade-up" className="group flex gap-x-6 h-20">
                 <div className="relative">
                   <div className="absolute left-1/2 top-0 h-full w-0.5 -translate-x-1/2 bg-slate-400"></div>
                   <span className="relative z-10 grid h-3 w-3 place-items-center rounded-full bg-slate-400 text-slate-800"></span>
                 </div>
-                <div className="rounded-lg">
-                  <h3 className="text-xl font-semibold">
+                <div className="rounded-lg flex flex-col justify-center">
+                  <h3 className="text-lg font-semibold">
                     Software Engineer – The Ninth Art
                   </h3>
                   <p className="text-sm">Dec 2019 – June 2022</p>
                 </div>
               </div>
-              <div data-aos="fade-up" className="group flex gap-x-6">
+              <div data-aos="fade-up" className="group flex gap-x-6 h-20">
                 <div className="relative">
                   <div className="absolute left-1/2 top-0 h-full w-0.5 -translate-x-1/2 bg-slate-400"></div>
                   <span className="relative z-10 grid h-3 w-3 place-items-center rounded-full bg-slate-400 text-slate-800"></span>
                 </div>
-                <div className="rounded-lg">
-                  <h3 className="text-xl font-semibold">
+                <div className="rounded-lg flex flex-col justify-center">
+                  <h3 className="text-lg font-semibold">
                     Internship – Pearl Yadana
                   </h3>
                   <p className="text-sm">May 2019 – July 2019</p>
