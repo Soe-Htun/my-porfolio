@@ -108,14 +108,14 @@ Your app will be available at: [http://localhost:3000](http://localhost:3000)
 
 ## ☁️ Deployment
 
-### Deploy on Vercel
+### Deploy on Netlify
 
 1. Push your code to GitHub
 2. Go to [Netlify](https://app.netlify.com)
 3. Import your repository
 4. Click **Deploy**
 
-Your live website will be hosted on a custom subdomain (e.g. `https://soehtun.netlify.app/`)
+Your live website will be hosted on a custom subdomain (e.g. `https://domainname.netlify.app/`)
 
 ---
 
