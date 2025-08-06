@@ -36,8 +36,8 @@ export const SkillsSection = () => {
     (skill) => activeCategory === "all" || skill.category === activeCategory
   );
   return (
-    <section id="skills" className="py-24 px-4 relative bg-secondary/30">
-      <div className="container mx-auto max-w-5xl">
+    <section id="skills" className="py-24 md:px-4 relative bg-secondary/30">
+      <div className="container mx-auto max-w-6xl">
         <h2 data-aos="zoom-in" className="text-3xl md:text-4xl font-bold mb-12 text-center">
           My <span className="text-primary"> Skills</span>
         </h2>

@@ -2,15 +2,16 @@ import React from "react";
 
 export const Education = () => {
   return (
-    <section id="education-experience" className="py-12 px-4">
-      <h2
-        data-aos="fade-up"
-        className="text-3xl md:text-4xl font-bold mb-12 text-center"
-      >
-        Education & <span className="text-primary"> Experience</span>
-      </h2>
-      <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12">
+    <section id="education-experience" className="py-12 md:px-4 relative">
+      
+      <div className="container max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12">
         {/* Education */}
+        <h2
+          data-aos="fade-up"
+          className="text-3xl md:text-4xl font-bold mb-12 text-center"
+        >
+          Education & <span className="text-primary"> Experience</span>
+        </h2>
         <div>
           <h2 data-aos="fade-up" className="text-xl font-bold mb-6">
             Education

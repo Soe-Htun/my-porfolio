@@ -7,9 +7,9 @@ export const HeroSection = () => {
   return (
     <section data-aos="fade-up" data-aos-delay="300"
       id="hero"
-      className="relative min-h-screen flex flex-col items-center justify-center px-4"
+      className="relative min-h-screen flex flex-col items-center justify-center md:px-4"
     >
-      <div className="container mx-auto max-w-5xl">
+      <div className="container mx-auto max-w-6xl">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center z-10">
           <div className="space-y-6 order-2 md:order-1">
             <h1 className="font-bold">
