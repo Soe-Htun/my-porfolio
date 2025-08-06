@@ -14,11 +14,11 @@ export const Education = () => {
           {/* Education */}
 
           <div>
-            <h2 data-aos="fade-up" data-aos-delay="100" className="text-xl font-bold mb-6">
+            <h2 data-aos="fade-up" className="text-xl font-bold mb-6">
               Education
             </h2>
             <div
-              data-aos="fade-up" data-aos-delay="200"
+              data-aos="fade-up"
               className="flex w-full flex-col items-start "
             >
               <div className="group flex gap-x-6 h-20">
@@ -38,10 +38,10 @@ export const Education = () => {
 
           {/* Experience */}
           <div>
-            <h2 data-aos="fade-up" data-aos-delay="100" className="text-xl font-bold mb-6">
+            <h2 data-aos="fade-up" className="text-xl font-bold mb-6">
               Experience
             </h2>
-            <div data-aos="fade-up" data-aos-delay="300" className="space-y-3 text-left">
+            <div data-aos="fade-up" className="space-y-3 text-left">
               <div className="text-sm text-left mb-8 indent-4">
                 With over 5 years of experience in frontend development, I have
                 successfully contributed to diverse projects involving modern
@@ -53,7 +53,7 @@ export const Education = () => {
               </div>
 
               <div className="flex w-full flex-col items-start">
-                <div data-aos="fade-up" data-aos-delay="400" className="group flex gap-x-6 h-20">
+                <div data-aos="fade-up" className="group flex gap-x-6 h-20">
                   <div className="relative">
                     <div className="absolute left-1/2 top-0 h-full w-0.5 -translate-x-1/2 bg-primary/80"></div>
                     <span className="relative z-10 grid h-3 w-3 place-items-center rounded-full bg-primary text-primary"></span>
@@ -65,7 +65,7 @@ export const Education = () => {
                     <p className="text-sm">Jun 2025 – Present</p>
                   </div>
                 </div>
-                <div data-aos="fade-up" data-aos-delay="500" className="group flex gap-x-6 h-20">
+                <div data-aos="fade-up" className="group flex gap-x-6 h-20">
                   <div className="relative">
                     <div className="absolute left-1/2 top-0 h-full w-0.5 -translate-x-1/2 bg-primary/80"></div>
                     <span className="relative z-10 grid h-3 w-3 place-items-center rounded-full bg-primary text-primary"></span>
@@ -78,7 +78,7 @@ export const Education = () => {
                     <p className="text-sm">Apr 2023 – Apr 2025</p>
                   </div>
                 </div>
-                <div data-aos="fade-up" data-aos-delay="600" className="group flex gap-x-6 h-20">
+                <div data-aos="fade-up" className="group flex gap-x-6 h-20">
                   <div className="relative">
                     <div className="absolute left-1/2 top-0 h-full w-0.5 -translate-x-1/2 bg-primary/80"></div>
                     <span className="relative z-10 grid h-3 w-3 place-items-center rounded-full bg-primary text-primary"></span>
@@ -90,7 +90,7 @@ export const Education = () => {
                     <p className="text-sm">July 2022 – Apr 2023</p>
                   </div>
                 </div>
-                <div data-aos="fade-up" data-aos-delay="700" className="group flex gap-x-6 h-20">
+                <div data-aos="fade-up" className="group flex gap-x-6 h-20">
                   <div className="relative">
                     <div className="absolute left-1/2 top-0 h-full w-0.5 -translate-x-1/2 bg-primary/80"></div>
                     <span className="relative z-10 grid h-3 w-3 place-items-center rounded-full bg-primary text-primary"></span>
@@ -102,7 +102,7 @@ export const Education = () => {
                     <p className="text-sm">Dec 2019 – June 2022</p>
                   </div>
                 </div>
-                <div data-aos="fade-up" data-aos-delay="800" className="group flex gap-x-6 h-20">
+                <div data-aos="fade-up" className="group flex gap-x-6 h-20">
                   <div className="relative">
                     <div className="absolute left-1/2 top-0 h-full w-0.5 -translate-x-1/2 bg-primary/80"></div>
                     <span className="relative z-10 grid h-3 w-3 place-items-center rounded-full bg-primary text-primary"></span>

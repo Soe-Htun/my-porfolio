@@ -13,7 +13,7 @@ const projects = [
     tags: ["React", "TailwindCSS", "Typescript"],
     demoUrl: "https://spotify-soehtun.netlify.app",
     githubUrl: "https://github.com/Soe-Htun/react-spotify-clone",
-    aosDelay: 200,
+    aosDelay: 100,
   },
   {
     id: 2,
@@ -24,7 +24,7 @@ const projects = [
     tags: ["Vue","TypeScript", "Tailwind CSS", "Axios"],
     demoUrl: "https://check-weather-site.netlify.app/",
     githubUrl: "https://github.com/Soe-Htun/weather-project",
-    aosDelay: 400
+    aosDelay: 100
   },
   {
     id: 3,
@@ -35,7 +35,7 @@ const projects = [
     tags: ["Vue","Typescript", "Axios"],
     demoUrl: "https://mycasinoassignment.netlify.app/",
     githubUrl: "https://github.com/Soe-Htun/vue-assignment",
-    aosDelay: 600
+    aosDelay: 200
   },
   {
     id: 4,
@@ -44,9 +44,9 @@ const projects = [
       "A vibrant and engaging online casino platform showcasing top-rated slot games, jackpots, and classic favorites.",
     image: EcommerceImg,
     tags: ["React","React Router", "Tailwind CSS", "Typescript" ,"Redux"],
-    demoUrl: "https://mycasinoassignment.netlify.app/",
+    demoUrl: "https://my-e-commerce-ui.netlify.app/",
     githubUrl: "https://github.com/Soe-Htun/react-e-commerce-app",
-    aosDelay: 800
+    aosDelay: 200
   },
 ];
 
