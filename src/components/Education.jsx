@@ -3,7 +3,7 @@ import React from "react";
 export const Education = () => {
   return (
     <section id="education-experience" className="py-12 md:px-4 relative">
-      <div className="container max-w-6xl mx-auto">
+      <div className="container max-w-5xl md:max-w-6xl mx-auto">
         <h2
           data-aos="fade-up"
           className="text-3xl md:text-4xl font-bold mb-12 text-center"

@@ -31,7 +31,7 @@ export const ContactSection = () => {
   };
   return (
     <section id="contact" className="py-24 md:px-4 relative bg-secondary/30">
-      <div className="container mx-auto max-w-6xl">
+      <div className="container mx-auto max-w-5xl md:max-w-6xl">
         <h2 data-aos="zoom-in" className="text-3xl md:text-4xl font-bold mb-4 text-center">
           Get In <span className="text-primary"> Touch</span>
         </h2>

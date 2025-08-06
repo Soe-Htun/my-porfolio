@@ -4,7 +4,7 @@ export const AboutSection = () => {
   return (
     <section id="about" className="py-24 md:px-4 relative">
       {" "}
-      <div className="container mx-auto max-w-6xl">
+      <div className="container mx-auto max-w-5xl md:max-w-6xl">
         <h2 data-aos="fade-up" className="text-3xl md:text-4xl font-bold mb-12 text-center">
           About <span className="text-primary"> Me</span>
         </h2>
