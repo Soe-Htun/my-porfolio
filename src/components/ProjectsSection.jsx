@@ -68,7 +68,7 @@ export const ProjectsSection = () => {
           {projects.map((project) => (
             <div 
               key={project.id}
-              data-aos="fade-up" data-aos-delay={project.aosDelay}
+              data-aos="flip-left" data-aos-delay={project.aosDelay}
               className="group bg-card rounded-lg overflow-hidden shadow-xs card-hover"
             >
               <div className="h-48 overflow-hidden">
@@ -115,7 +115,7 @@ export const ProjectsSection = () => {
           ))}
         </div>
 
-        <div data-aos="fade-up" className="text-center mt-12">
+        <div data-aos="zoom-in" className="text-center mt-12">
           <a
             className="cosmic-button w-fit flex items-center mx-auto gap-2"
             target="_blank"

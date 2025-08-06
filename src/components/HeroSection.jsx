@@ -13,7 +13,7 @@ export const HeroSection = () => {
       return () => window.removeEventListener("scroll", handleScroll);
     }, []);
   return (
-    <section data-aos="fade-up" data-aos-delay="300"
+    <section data-aos="fade-up" data-aos-delay="200"
       id="hero"
       className="relative min-h-screen flex flex-col items-center justify-center md:px-4 py-9"
     >
@@ -43,7 +43,7 @@ export const HeroSection = () => {
               </a>
             </div>
           </div>
-          <div className="flex justify-center items-center order-1 md:order-2">
+          <div data-aos="flip-left" data-aos-delay="600" className="flex justify-center items-center order-1 md:order-2">
             <img src={UserImg} 
               className="w-40 h-40 lg:w-60 lg:h-60 rounded-full object-cover bg-primary pt-4"
             />
