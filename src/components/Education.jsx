@@ -7,7 +7,7 @@ export const Education = () => {
         data-aos="fade-up"
         className="text-3xl md:text-4xl font-bold mb-12 text-center"
       >
-        Education & Experience
+        Education & <span className="text-primary"> Experience</span>
       </h2>
       <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12">
         {/* Education */}
@@ -18,8 +18,8 @@ export const Education = () => {
           <div data-aos="fade-up" className="flex w-full flex-col items-start ">
             <div className="group flex gap-x-6 h-20">
               <div className="relative">
-                <div className="absolute left-1/2 top-0 h-full w-0.5 -translate-x-1/2 bg-slate-400"></div>
-                <span className="relative z-10 grid h-3 w-3 place-items-center rounded-full bg-slate-400 text-slate-800"></span>
+                <div className="absolute left-1/2 top-0 h-full w-0.5 -translate-x-1/2 bg-primary/80"></div>
+                <span className="relative z-10 grid h-3 w-3 place-items-center rounded-full bg-primary text-primary"></span>
               </div>
               <div className="rounded-lg text-left flex flex-col justify-center">
                 <h3 className="text-lg font-semibold">
@@ -37,7 +37,7 @@ export const Education = () => {
             Experience
           </h2>
           <div data-aos="fade-up" className="space-y-3 text-left">
-            <div className="text-sm text-left mb-8">
+            <div className="text-sm text-left mb-8 indent-4">
               With over 5 years of experience in frontend development, I have
               successfully contributed to diverse projects involving modern
               JavaScript frameworks and libraries. My expertise in Vue, Nuxt,
@@ -50,8 +50,8 @@ export const Education = () => {
             <div className="flex w-full flex-col items-start">
               <div data-aos="fade-up" className="group flex gap-x-6 h-20">
                 <div className="relative">
-                  <div className="absolute left-1/2 top-0 h-full w-0.5 -translate-x-1/2 bg-slate-400"></div>
-                  <span className="relative z-10 grid h-3 w-3 place-items-center rounded-full bg-slate-400 text-slate-800"></span>
+                  <div className="absolute left-1/2 top-0 h-full w-0.5 -translate-x-1/2 bg-primary/80"></div>
+                  <span className="relative z-10 grid h-3 w-3 place-items-center rounded-full bg-primary text-primary"></span>
                 </div>
                 <div className="rounded-lg flex flex-col justify-center">
                   <h3 className="text-lg font-semibold">
@@ -62,8 +62,8 @@ export const Education = () => {
               </div>
               <div data-aos="fade-up" className="group flex gap-x-6 h-20">
                 <div className="relative">
-                  <div className="absolute left-1/2 top-0 h-full w-0.5 -translate-x-1/2 bg-slate-400"></div>
-                  <span className="relative z-10 grid h-3 w-3 place-items-center rounded-full bg-slate-400 text-slate-800"></span>
+                  <div className="absolute left-1/2 top-0 h-full w-0.5 -translate-x-1/2 bg-primary/80"></div>
+                  <span className="relative z-10 grid h-3 w-3 place-items-center rounded-full bg-primary text-primary"></span>
                 </div>
                 <div className="rounded-lg text-left flex flex-col justify-center">
                   <h3 className="text-lg font-semibold">
@@ -75,8 +75,8 @@ export const Education = () => {
               </div>
               <div data-aos="fade-up" className="group flex gap-x-6 h-20">
                 <div className="relative">
-                  <div className="absolute left-1/2 top-0 h-full w-0.5 -translate-x-1/2 bg-slate-400"></div>
-                  <span className="relative z-10 grid h-3 w-3 place-items-center rounded-full bg-slate-400 text-slate-800"></span>
+                  <div className="absolute left-1/2 top-0 h-full w-0.5 -translate-x-1/2 bg-primary/80"></div>
+                  <span className="relative z-10 grid h-3 w-3 place-items-center rounded-full bg-primary text-primary"></span>
                 </div>
                 <div className="rounded-lg flex flex-col justify-center">
                   <h3 className="text-lg font-semibold">
@@ -87,8 +87,8 @@ export const Education = () => {
               </div>
               <div data-aos="fade-up" className="group flex gap-x-6 h-20">
                 <div className="relative">
-                  <div className="absolute left-1/2 top-0 h-full w-0.5 -translate-x-1/2 bg-slate-400"></div>
-                  <span className="relative z-10 grid h-3 w-3 place-items-center rounded-full bg-slate-400 text-slate-800"></span>
+                  <div className="absolute left-1/2 top-0 h-full w-0.5 -translate-x-1/2 bg-primary/80"></div>
+                  <span className="relative z-10 grid h-3 w-3 place-items-center rounded-full bg-primary text-primary"></span>
                 </div>
                 <div className="rounded-lg flex flex-col justify-center">
                   <h3 className="text-lg font-semibold">
@@ -99,8 +99,8 @@ export const Education = () => {
               </div>
               <div data-aos="fade-up" className="group flex gap-x-6 h-20">
                 <div className="relative">
-                  <div className="absolute left-1/2 top-0 h-full w-0.5 -translate-x-1/2 bg-slate-400"></div>
-                  <span className="relative z-10 grid h-3 w-3 place-items-center rounded-full bg-slate-400 text-slate-800"></span>
+                  <div className="absolute left-1/2 top-0 h-full w-0.5 -translate-x-1/2 bg-primary/80"></div>
+                  <span className="relative z-10 grid h-3 w-3 place-items-center rounded-full bg-primary text-primary"></span>
                 </div>
                 <div className="rounded-lg flex flex-col justify-center">
                   <h3 className="text-lg font-semibold">
