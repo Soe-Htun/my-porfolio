@@ -1,6 +1,8 @@
 import { Moon, Sun } from "lucide-react";
 import { useEffect, useState } from "react";
 import { cn } from "@/lib/utils";
+import lightMode from "../assets/light_mode.png"
+import darkMode from "../assets/dark_mode.png"
 
 export const ThemeToggle = () => {
   const [isDarkMode, setIsDarkMode] = useState(false);
@@ -31,15 +33,21 @@ export const ThemeToggle = () => {
   return (
     <button
       onClick={toggleTheme}
-      className={cn(
-        "fixed max-sm:hidden right-5 z-50 p-2 rounded-full transition-colors duration-300",
-        "focus:outlin-hidden"
-      )}
+      // className={cn(
+      //   "fixed max-sm:hidden right-5 z-50 p-2 rounded-full transition-colors duration-300",
+      //   "focus:outlin-hidden"
+      // )}
     >
-      {isDarkMode ? (
+      {/* {isDarkMode ? (
         <Sun className="h-6 w-6 text-yellow-300" />
       ) : (
         <Moon className="h-6 w-6 text-blue-900" />
+      )} */}
+      
+      {isDarkMode ? (
+        <img src={lightMode} className="w-12 cursor-pointer drop-shadow-[1px_1px_1px_rgba(0,0,0,0.1)] transition-all duration-300" />
+      ) : (
+        <img src={darkMode} className="w-12 cursor-pointer drop-shadow-[1px_1px_1px_rgba(0,0,0,0.1)] transition-all duration-300" />
       )}
     </button>
   );

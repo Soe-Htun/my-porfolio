@@ -1,5 +1,6 @@
 import { ArrowDown } from "lucide-react";
 import { ReactTyped }  from 'react-typed';
+import UserImg from "../assets/user.png"
 
 export const HeroSection = () => {
 
@@ -8,8 +9,8 @@ export const HeroSection = () => {
       id="hero"
       className="relative min-h-screen flex flex-col items-center justify-center px-4"
     >
-      <div className="container max-w-4xl mx-auto text-center z-10">
-        <div className="space-y-6">
+      <div className="container grid grid-cols-1 lg:grid-cols-2 text-center gap-9 z-10">
+        <div className="space-y-6 order-2 lg:order-1">
           <h1 className="font-bold">
             <p className="text-4xl md:text-6xl text-primary mb-3 tracking-wider">Soe Htun</p>
             <span className="text-2xl tracking-widest">
@@ -32,6 +33,11 @@ export const HeroSection = () => {
               View My Work
             </a>
           </div>
+        </div>
+        <div className="flex justify-center items-center order-1 lg:order-2">
+          <img src={UserImg} 
+            className="w-40 h-40 lg:w-60 lg:h-60 rounded-full object-cover bg-primary pt-4"
+          />
         </div>
       </div>
 
